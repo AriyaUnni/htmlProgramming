@@ -16,41 +16,50 @@
 
    <h1>Faculty Registration Form</h1> <br>
 
-   <table class="table">
-    <tr>
-        <td>Department</td>
-        <td><select class="form-control" name="" id="">
+   <div class="row g-3">
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+        <label for="Department">Department</label>
+        <select class="form-control" name="" id="">
+            <option value="Select">------select-------</option>
             <option value="Computer Science Engineering">Computer Science Engineering</option>
             <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
             <option value="Mechanical Engineering">Mechanical Engineering</option>
             <option value="Civil Engineering">Civil Engineering</option>
             <option value="Biotechnology">Biotechnology</option>
             <option value="Chemical Engineering">Chemical Engineering</option>
-        </select></td>
-    </tr>
-    <tr>
-        <td>Faculty Name</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Contact Number</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Qualification</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Address</td>
-        <td> <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea></td>
-    </tr>
-    <tr>
-        <td>Pincode</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Blood Group</td>
-        <td> <select class="form-control" name="" id="">
+        </select>
+    </div>
+    
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+        <label for="Faculty Name">Faculty Name</label>
+        <input type="text" class="form-control" placeholder="Enter faculty name">
+
+    </div>
+
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+        <label for="Contact Number">Contact Number</label>
+     <input type="text" class="form-control">
+    </div>
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+                <label for="Qualification">Qualification</label>
+             <input type="text" class="form-control">
+            </div>
+
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+                <label for="Address">Address</label>
+                 <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+                <label for="Pincode">Pincode</label>
+             <input type="text" class="form-control">
+            </div>
+
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+                <label for="Blood Group">Blood Group</label>
+                <select class="form-control" name="" id="">
+                    <option value="select">------select-------</option>
             <option value="A RhD Positive">A+</option>
             <option value="A RhD negative">A-</option>
             <option value="B RhD Positive">B+</option>
@@ -59,15 +68,19 @@
             <option value="O RhD negative">O-</option>
             <option value="AB RhD Positive">AB+</option>
             <option value="AB RhD negative">AB-</option>
-        </select></td>
-    </tr>
-    <tr>
-        <td>College Name</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>District</td>
-        <td><select class="form-control" name="" id="">
+        </select>
+    </div>
+    
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+        <label for="College Name">College Name</label>
+        <input type="text" class="form-control" placeholder="Enter faculty name">
+
+    </div>
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+            <label for="District">District</label>
+            <select class="form-control" name="" id="">
+                <option value="select">------select-------</option>
             <option value="Thrissur">Thrissur</option>
             <option value="Kozhikode">Kozhikode</option>
             <option value="Thiruvananthapuram">Thiruvananthapuram</option>
@@ -82,37 +95,47 @@
             <option value="Malappuram">Malappuram</option>
             <option value="Wayanad">Wayanad</option>
             <option value="Kasaragod">Kasaragod</option>
-        </select></td>
-    </tr>
-    <tr>
-        <td>Year of Experience</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>DOB</td>
-        <td> <input class="form-control" type="date" name="" id=""></td>
-    </tr>
-    <tr>
-        <td>Email Id</td>
-        <td> <input class="form-control" type="email" name="" id=""></td>
-    </tr>
-    <tr>
-        <td>Username</td>
-        <td> <input type="text" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Password</td>
-        <td> <input type="password" name="" id="" class="form-control"></td>
-    </tr>
-    <tr>
-        <td>Confirm Password</td>
-        <td> <input type="password" name="" id="" class="form-control"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><button class="btn btn-success">Submit</button></td>
-    </tr>
-   </table>
+        </select>
+    </div>
+    
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+        <label for="Year of Experience">Year of Experience</label>
+        <input type="text" class="form-control" placeholder="Enter year of Experience">
+
+    </div>
+
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+        <label for="DOB">DOB</label>
+         <input type="date" name="" id="" class="form-control">
+    </div>
+
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+                <label for="Email Id">Email Id</label>
+             <input type="email" name="" id="" class="form-control">
+            </div>
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+            <label for="Usernsme">Username</label>
+            <input type="text" class="form-control" placeholder="Enter username">
+        </div>
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+            <label for="Password">Password</label>
+         <input type="password" name="" id="" class="form-control">
+        </div>
+    
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+            <label for=" Confirm Password">Confirm Password</label>
+         <input type="password" name="" id="" class="form-control">
+        </div>
+
+        <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 xxl-6"><br>
+                        
+            <button class="btn btn-success">Submit</button>
+            
+        </div>
+   </div>
+   
             </div>
         </div>
     </div>
